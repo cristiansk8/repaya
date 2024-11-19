@@ -19,3 +19,44 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+.banner {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #f6df00;
+  /* Color de fondo del banner */
+  height: 90px;
+  /* Altura del banner */
+  display: flex;
+  justify-content: space-between;
+  /* Para colocar el logo a la izquierda y las redes a la derecha */
+  align-items: center;
+  /* Para centrar verticalmente el contenido */
+  padding: 0 20px;
+  /* Ajuste de espaciado interno */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* Sombra suave */
+}
+
+.banner .logo img {
+  height: auto;
+  /* Tamaño del logo */
+  width: 100px;
+}
+.social-links{
+  display: flex;
+}
+.banner .social-links a {
+  margin-left: 10px;
+  /* Espaciado entre los íconos de redes sociales */
+}
+
+.container-input input {
+  padding: 10px;
+  width: 60%;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.w-full{
+}
